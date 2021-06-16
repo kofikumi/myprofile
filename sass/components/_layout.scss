@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  // height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.container > div {
+  background: red;
+}
