@@ -1,9 +1,111 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+  text-transform: capitalize;
+}
 .container {
   display: grid;
   // height: 100vh;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  // grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  // background: url();
+  grid-template-areas:
+    "bio bio bio bio"
+    "skills skills skills skills"
+    "related related related related"
+    "educational educational educational educational"
+    "personal personal personal personal"
+    "student_work student_work student_work student_work";
 }
-.container > div {
-  background: blue;
+
+.bio {
+  grid-area: bio;
+  //split it into 2 with right bigger than left
+  h2 {
+    text-align: left;
+  }
+}
+
+.skill_set {
+  grid-area: skills;
+
+  .skill_set_content {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.related_skills {
+  grid-area: related;
+  h3 {
+    text-align: center;
+  }
+}
+
+.related_content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.software,
+.ms_office,
+.framework,
+.hardware {
+  padding: 10px;
+  margin: 10px;
+}
+
+.software_content,
+.office_content,
+.framework_content {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.html,
+.css,
+.js,
+.vue {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.html {
+  background: url("/img/related/html5.svg");
+}
+
+.css {
+  background: url("/img/related/css3.svg");
+}
+
+.js {
+  background: url("/img/related/javascript.svg");
+}
+
+// .word {
+//   background: url("/img/related/word.svg");
+// }
+
+// .excel {
+//   background: url("/img/related/excel.svg");
+// }
+
+.vue {
+  background: url("/img/related/vue-dot-js.svg");
+}
+
+.educational_bg {
+  grid-area: educational;
+}
+
+.personal_attributes {
+  grid-area: personal;
+}
+
+.student_work {
+  grid-area: student_work;
 }
