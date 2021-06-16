@@ -34,16 +34,15 @@ h3 {
 }
 
 .related_content {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .software,
 .ms_office,
 .framework,
 .hardware {
-  padding: 10px;
-  margin: 10px;
+  padding: 15px;
 }
 
 .software_content,
@@ -76,6 +75,14 @@ h3 {
   background: url("/img/related/javascript.svg");
 }
 
+.word {
+  background: url("/img/related/word.svg");
+}
+
+.excel {
+  background: url("/img/related/excel.svg");
+}
+
 .vue {
   background: url("/img/related/vue-dot-js.svg");
 }
@@ -86,6 +93,18 @@ h3 {
 
 .personal_attributes {
   grid-area: personal;
+}
+
+.personal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.communication p,
+.honest p,
+.flexibility p {
+  padding: 10px;
 }
 
 .student_work {
