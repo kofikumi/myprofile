@@ -29,8 +29,8 @@ h3 {
   grid-area: skills;
 
   .skill_set_content {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -75,13 +75,13 @@ h3 {
   background: url("/img/related/javascript.svg");
 }
 
-.word {
-  background: url("/img/related/word.svg");
-}
+// .word {
+//   background: url("/img/related/word.svg");
+// }
 
-.excel {
-  background: url("/img/related/excel.svg");
-}
+// .excel {
+//   background: url("/img/related/excel.svg");
+// }
 
 .vue {
   background: url("/img/related/vue-dot-js.svg");
@@ -98,7 +98,6 @@ h3 {
 .personal {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5px;
 }
 
 .student_work {
