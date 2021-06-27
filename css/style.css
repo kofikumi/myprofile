@@ -38,19 +38,11 @@ h3 {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.software,
-.ms_office,
-.framework,
-.hardware {
-  padding: 15px;
-}
-
 .software_content,
 .office_content,
 .framework_content {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
 }
 
 .html,
@@ -99,12 +91,6 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
-}
-
-.communication p,
-.honest p,
-.flexibility p {
-  padding: 10px;
 }
 
 .student_work {
