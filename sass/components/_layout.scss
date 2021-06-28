@@ -19,10 +19,18 @@ h3 {
 
 .bio {
   grid-area: bio;
-  //split it into 2 with right bigger than left
-  h2 {
-    text-align: left;
+  img {
+    width: 20%;
+    border-radius: 50%;
   }
+}
+.img {
+  text-align: center;
+}
+.bio_content {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
 }
 
 .skill_set {

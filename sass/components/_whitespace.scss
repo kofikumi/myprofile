@@ -1,24 +1,30 @@
 .bio {
-  padding-top: 5%;
+  padding-top: 2%;
   height: 100vh;
 }
+.bio {
+  img {
+    padding-top: 1%;
+  }
+}
 .bio_content {
-  padding-top: 8%;
+  padding-top: 3%;
 }
 
 .skill_set {
-  height: 100vh;
+  height: 80vh;
 }
+
 .skill_set_content {
   padding-top: 8%;
 }
 
 .related_skills {
-  height: 100vh;
+  height: 80vh;
 }
 
 .related_content {
-  padding-top: 9%;
+  padding-top: 5%;
 }
 
 .group_b {
@@ -35,7 +41,7 @@
 }
 
 .personal_attributes {
-  height: 100vh;
+  height: 90vh;
 }
 
 .personal_content {
@@ -54,9 +60,14 @@
 }
 
 .student_work {
-  padding-bottom: 9%;
+  height: 90vh;
   h3 {
     padding-top: 4%;
     padding-bottom: 4%;
   }
+}
+
+.student_work > div {
+  width: 80%;
+  margin: auto;
 }
