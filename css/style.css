@@ -39,24 +39,18 @@ h3 {
 
 .related_content {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .ms_office,
-.hardware,
 .ms_office h3,
 .hardware h3 {
-  text-align: left;
+  text-align: justify;
 }
 
 .software_content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-}
-
-.framework_content {
-  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-items: center;
 }
 
@@ -99,12 +93,77 @@ h3 {
   grid-area: personal;
 }
 
-.personal {
+.personal_content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5%;
   justify-items: center;
 }
 
 .student_work {
   grid-area: student_work;
+}
+
+.bio {
+  padding-top: 5%;
+  height: 100vh;
+}
+
+.bio_content {
+  padding-top: 8%;
+}
+
+.skill_set {
+  height: 100vh;
+}
+
+.skill_set_content {
+  padding-top: 8%;
+}
+
+.related_skills {
+  height: 100vh;
+}
+
+.related_content {
+  padding-top: 9%;
+}
+
+.group_b {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 8%;
+}
+
+.software_content,
+.hardware_content,
+.office_content {
+  padding-top: 4%;
+  width: 80% auto;
+}
+
+.personal_attributes {
+  height: 100vh;
+}
+
+.personal_content {
+  padding-top: 9%;
+  width: 90%;
+  margin: auto;
+}
+
+.communication,
+.flexibility,
+.honest {
+  padding-top: 4%;
+  width: 80% auto;
+  text-align: justify;
+}
+
+.student_work {
+  padding-bottom: 9%;
+}
+.student_work h3 {
+  padding-top: 4%;
+  padding-bottom: 4%;
 }/*# sourceMappingURL=style.css.map */

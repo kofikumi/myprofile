@@ -48,25 +48,21 @@ h3 {
 
 .related_content {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .ms_office,
-.hardware,
 .ms_office h3,
 .hardware h3 {
-  text-align: left;
+  text-align: justify;
 }
 
 .software_content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-items: center;
 }
-.framework_content {
-  display: grid;
-  justify-items: center;
-}
+
 .skill_set_content img {
   width: 30%;
 }
@@ -106,9 +102,10 @@ h3 {
   grid-area: personal;
 }
 
-.personal {
+.personal_content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5%;
   justify-items: center;
 }
 

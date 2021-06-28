@@ -1,20 +1,61 @@
-// .software,
-// .ms_office,
-// .framework,
-// .hardware {
-//   // padding: 15px;
-// }
+.bio {
+  padding-top: 5%;
+  height: 100vh;
+}
+.bio_content {
+  padding-top: 8%;
+}
 
-// .software_content,
-// .office_content,
-// .framework_content {
-//   padding: 10px;
-// }
+.skill_set {
+  height: 100vh;
+}
+.skill_set_content {
+  padding-top: 8%;
+}
 
-// .communication,
-// .honest,
-// .flexibility {
-//   p {
-//     // padding: 10px;
-//   }
-// }
+.related_skills {
+  height: 100vh;
+}
+
+.related_content {
+  padding-top: 9%;
+}
+
+.group_b {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 8%;
+}
+
+.software_content,
+.hardware_content,
+.office_content {
+  padding-top: 4%;
+  width: 80% auto;
+}
+
+.personal_attributes {
+  height: 100vh;
+}
+
+.personal_content {
+  padding-top: 9%;
+  width: 90%;
+  margin: auto;
+}
+
+.communication,
+.flexibility,
+.honest {
+  padding-top: 4%;
+  width: 80% auto;
+  text-align: justify;
+}
+
+.student_work {
+  padding-bottom: 9%;
+  h3 {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+}
