@@ -67,11 +67,6 @@ h3 {
   width: 30%;
 }
 
-.personal_content img {
-  width: 30%;
-  // text-align: center;
-}
-
 .html,
 .css,
 .js,
@@ -107,10 +102,24 @@ h3 {
   grid-area: personal;
 }
 
+.communication,
+.flexibility,
+.honest {
+  text-align: center;
+
+  p {
+    text-align: justify;
+  }
+}
+
+.personal_content img {
+  width: 50%;
+}
+
 .personal_content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 5%;
+  grid-column-gap: 4%;
   justify-items: center;
 }
 

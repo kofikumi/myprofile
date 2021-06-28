@@ -58,10 +58,6 @@ h3 {
   width: 30%;
 }
 
-.personal_content img {
-  width: 30%;
-}
-
 .html,
 .css,
 .js,
@@ -97,10 +93,25 @@ h3 {
   grid-area: personal;
 }
 
+.communication,
+.flexibility,
+.honest {
+  text-align: center;
+}
+.communication p,
+.flexibility p,
+.honest p {
+  text-align: justify;
+}
+
+.personal_content img {
+  width: 50%;
+}
+
 .personal_content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 5%;
+  grid-column-gap: 4%;
   justify-items: center;
 }
 
@@ -151,17 +162,19 @@ h3 {
 }
 
 .personal_content {
-  padding-top: 9%;
+  padding-top: 8%;
   width: 90%;
   margin: auto;
+}
+
+.personal_content img {
+  padding-bottom: 8%;
 }
 
 .communication,
 .flexibility,
 .honest {
-  padding-top: 4%;
   width: 80% auto;
-  text-align: justify;
 }
 
 .student_work {
