@@ -1,2 +1,35 @@
-$font-size: 16px;
-$line-spacing: $font-size * 1.5;
+@mixin leading {
+  line-height: 150%;
+}
+
+html {
+  @include leading;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 1.2rem;
+  @include leading;
+}
+
+.bio_content {
+  p {
+    text-align: center;
+  }
+}
+
+.html,
+.css,
+.js,
+.vue {
+  font-weight: bold;
+}
+
+.communication,
+.flexibility,
+.honest {
+  font-size: 1.2rem;
+  @include leading;
+}

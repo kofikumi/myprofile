@@ -1,3 +1,34 @@
+html {
+  line-height: 150%;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 150%;
+}
+
+.bio_content p {
+  text-align: center;
+}
+
+.html,
+.css,
+.js,
+.vue {
+  font-weight: bold;
+}
+
+.communication,
+.flexibility,
+.honest {
+  font-size: 1.2rem;
+  line-height: 150%;
+}
+
 h1,
 h2,
 h3 {
@@ -50,7 +81,6 @@ h3 {
 
 .related_content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .ms_office,
@@ -72,12 +102,18 @@ h3 {
 .html,
 .css,
 .js,
-.vue,
-.word {
+.vue {
   background-repeat: no-repeat;
   background-size: cover;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
+}
+.html p,
+.css p,
+.js p,
+.vue p {
+  margin-top: 120px;
+  text-align: center;
 }
 
 .html {
@@ -131,45 +167,35 @@ h3 {
 }
 
 .bio {
-  padding-top: 5%;
+  padding-top: 4%;
   height: 100vh;
 }
 
-.bio_content {
-  padding-top: 3%;
+.bio_content h2 {
+  padding-top: 1%;
+}
+.bio_content p {
+  padding-top: 1%;
 }
 
 .skill_set {
-  height: 80vh;
+  height: 100vh;
 }
 
 .skill_set_content {
-  padding-top: 8%;
+  padding-top: 10%;
 }
 
 .related_skills {
-  height: 80vh;
+  height: 100vh;
 }
 
 .related_content {
-  padding-top: 5%;
-}
-
-.group_b {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding-left: 8%;
-}
-
-.software_content,
-.hardware_content,
-.office_content {
-  padding-top: 4%;
-  width: 80% auto;
+  padding-top: 10%;
 }
 
 .personal_attributes {
-  height: 90vh;
+  height: 100vh;
 }
 
 .personal_content {
@@ -189,7 +215,8 @@ h3 {
 }
 
 .student_work {
-  height: 90vh;
+  padding-top: 15%;
+  height: 100vh;
 }
 .student_work h3 {
   padding-top: 4%;

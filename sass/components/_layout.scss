@@ -56,7 +56,7 @@ h3 {
 
 .related_content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  // grid-template-columns: repeat(2, 1fr);
 }
 
 .ms_office,
@@ -78,12 +78,15 @@ h3 {
 .html,
 .css,
 .js,
-.vue,
-.word {
+.vue {
   background-repeat: no-repeat;
   background-size: cover;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
+  p {
+    margin-top: 120px;
+    text-align: center;
+  }
 }
 
 .html {
