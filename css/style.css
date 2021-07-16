@@ -15,7 +15,8 @@ h3 {
   grid-area: bio;
 }
 .bio img {
-  width: 20%;
+  width: 15%;
+  border-radius: 5%;
 }
 
 .icon {
@@ -132,10 +133,6 @@ h3 {
 .bio {
   padding-top: 2%;
   height: 100vh;
-}
-
-.bio img {
-  padding-top: 1%;
 }
 
 .bio_content {
