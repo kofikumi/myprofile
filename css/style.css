@@ -6,6 +6,14 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
 p {
   font-size: 1.2rem;
   line-height: 150%;
@@ -75,19 +83,6 @@ h3 {
 .related_skills {
   grid-area: related;
 }
-.related_skills h3 {
-  text-align: center;
-}
-
-.related_content {
-  display: grid;
-}
-
-.ms_office,
-.ms_office h3,
-.hardware h3 {
-  text-align: justify;
-}
 
 .software_content {
   display: grid;
@@ -144,6 +139,9 @@ h3 {
 .flexibility,
 .honest {
   text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5%;
+  padding: 5%;
 }
 .communication p,
 .flexibility p,
@@ -199,13 +197,9 @@ h3 {
 }
 
 .personal_content {
-  padding-top: 8%;
+  padding-top: 4%;
   width: 90%;
   margin: auto;
-}
-
-.personal_content img {
-  padding-bottom: 8%;
 }
 
 .communication,
@@ -215,12 +209,11 @@ h3 {
 }
 
 .student_work {
-  padding-top: 15%;
   height: 100vh;
 }
 .student_work h3 {
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
 
 .student_work > div {
