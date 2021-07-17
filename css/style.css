@@ -37,6 +37,53 @@ p {
   line-height: 150%;
 }
 
+.container {
+  background: url("/img/bg1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bio {
+  background: linear-gradient(to bottom, rgba(47, 60, 79, 0.5), rgba(245, 245, 245, 0.8));
+}
+
+.customer_service,
+.problem_solving,
+.dispute_resolution,
+.data_processing {
+  justify-self: center;
+  width: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 5%;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+
+.skill_set {
+  background: rgba(214, 230, 242, 0.98);
+}
+
+.related_skills {
+  background: rgba(214, 230, 242, 0.98);
+}
+
+.personal_attributes {
+  background: rgba(214, 230, 242, 0.98);
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.communication,
+.flexibility,
+.honest {
+  background-color: #fff;
+}
+
+.student_work {
+  background: rgba(214, 230, 242, 0.98);
+}
+
 h1,
 h2,
 h3 {
@@ -56,6 +103,7 @@ h3 {
 .bio img {
   width: 25%;
   border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
 .icon {
@@ -70,14 +118,21 @@ h3 {
 
 .skill_set {
   grid-area: skills;
+  padding-top: 5%;
+  align-items: center;
+  align-content: center;
 }
-.skill_set .skill_set_content {
+
+.skill_set_content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5%;
   text-align: center;
+  width: 80%;
+  margin: auto;
 }
-.skill_set .skill_set_content p {
-  font-weight: 600;
+.skill_set_content p {
+  font-weight: bold;
 }
 
 .related_skills {
@@ -88,10 +143,12 @@ h3 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
+  width: 80%;
+  margin: auto;
 }
 
 .skill_set_content img {
-  width: 30%;
+  width: 100%;
 }
 
 .html,
@@ -140,7 +197,7 @@ h3 {
 .honest {
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  border-radius: 5%;
+  border-radius: 1%;
   padding: 5%;
 }
 .communication p,
@@ -181,11 +238,19 @@ h3 {
 }
 
 .skill_set_content {
-  padding-top: 10%;
+  padding-top: 6%;
+}
+
+.customer_service,
+.problem_solving,
+.dispute_resolution,
+.data_processing {
+  padding: 25%;
 }
 
 .related_skills {
   height: 100vh;
+  padding-top: 8%;
 }
 
 .related_content {

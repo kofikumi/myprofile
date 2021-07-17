@@ -22,6 +22,7 @@ h3 {
   img {
     width: 25%;
     border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.7);
   }
 }
 .icon {
@@ -35,15 +36,20 @@ h3 {
 
 .skill_set {
   grid-area: skills;
+  padding-top: 5%;
+  align-items: center;
+  align-content: center;
+}
+.skill_set_content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5%;
+  text-align: center;
+  width: 80%;
+  margin: auto;
 
-  .skill_set_content {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    text-align: center;
-
-    p {
-      font-weight: 600;
-    }
+  p {
+    font-weight: bold;
   }
 }
 
@@ -55,10 +61,12 @@ h3 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
+  width: 80%;
+  margin: auto;
 }
 
 .skill_set_content img {
-  width: 30%;
+  width: 100%;
 }
 
 .html,
@@ -104,7 +112,7 @@ h3 {
 .honest {
   text-align: center;
   box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.5);
-  border-radius: 5%;
+  border-radius: 1%;
   padding: 5%;
 
   p {
