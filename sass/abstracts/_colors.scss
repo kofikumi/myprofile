@@ -82,5 +82,6 @@ $text-color5: #be3144;
 }
 
 .student_work {
-  background: rgba($color: $highlight-color1, $alpha: 0.98);
+  background: rgba($color: $text-color1, $alpha: 1);
+  color: #fff;
 }

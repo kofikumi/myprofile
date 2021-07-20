@@ -54,13 +54,15 @@
 
 .student_work {
   height: 100vh;
+  padding-top: 5%;
   h3 {
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom: 2%;
   }
 }
 
 .student_work > div {
+  padding-top: 2%;
   width: 80%;
   margin: auto;
 }

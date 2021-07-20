@@ -81,7 +81,8 @@ p {
 }
 
 .student_work {
-  background: rgba(214, 230, 242, 0.98);
+  background: #303841;
+  color: #fff;
 }
 
 h1,
@@ -270,13 +271,15 @@ h3 {
 
 .student_work {
   height: 100vh;
+  padding-top: 5%;
 }
 .student_work h3 {
-  padding-top: 1%;
+  padding-top: 2%;
   padding-bottom: 2%;
 }
 
 .student_work > div {
+  padding-top: 2%;
   width: 80%;
   margin: auto;
 }
